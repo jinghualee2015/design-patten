@@ -1,0 +1,25 @@
+use crate::users::UserCollection;
+
+mod users;
+
+fn main() {
+    println!("Iterators are widely used in the standard Library: ");
+    let array = &[1, 2, 3];
+    let iterator = array.iter();
+    // Traversal over each element of the array.
+    iterator.for_each(|e| println!("{}", e));
+
+    println!("\n\nLet's test our own iterator.\n");
+    let users = UserCollection::new();
+    let mut iterator = users.iter();
+
+    println!("1nd element: {:?}", iterator.next());
+    println!("2nd element: {:?}", iterator.next());
+    println!("3rd element: {:?}", iterator.next());
+    println!("4th element: {:?}", iterator.next());
+
+    print!("\nAll elements in user collection: ");
+    users.iter().for_each(|e| println!("{}", e));
+
+    println!();
+}

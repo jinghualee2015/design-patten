@@ -1,0 +1,16 @@
+[package]
+name = "strategy"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "conceptual"
+path = "src/conceptual.rs"
+
+[[bin]]
+name = "funcational"
+path = "src/functional.rs"
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+log = { version = "0.4", features = ["max_level_info", "release_max_level_warn"] }

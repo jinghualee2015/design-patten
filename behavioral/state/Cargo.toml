@@ -1,0 +1,12 @@
+[package]
+name = "state"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[[bin]]
+name = "state"
+path = "src/main.rs"
+
+[dependencies]
+cursive = {version = "0.19", default-features=false, features=["termion-backend"]}

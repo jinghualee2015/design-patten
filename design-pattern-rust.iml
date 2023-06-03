@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="RUST_MODULE" version="4">
+  <component name="Go" enabled="true" />
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/behavioral/chain-of-responsibility/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/behavioral/iterator/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/behavioral/mediator/mediator-rc-refcell/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/behavioral/mediator/mediator-top-down/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/behavioral/memo/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/behavioral/observer/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/behavioral/state/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/behavioral/strategy/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/behavioral/template-method/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/behavioral/visitor/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/structural/adapter/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/structural/bridge/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/structural/composite/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/structural/decorator/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/structural/facade/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/structural/flyweight/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/structural/proxy/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/creational/abstract-factory/app-dyn/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/creational/abstract-factory/app/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/creational/abstract-factory/gui/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/creational/abstract-factory/macos-gui/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/creational/abstract-factory/windows-gui/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/creational/builder/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/creational/facotry-method/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/creational/prototype/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/creational/simple-factory/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/creational/singleton/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/creational/static-creation-method/src" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/target" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
